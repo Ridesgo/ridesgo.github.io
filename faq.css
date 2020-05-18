@@ -1,4 +1,9 @@
-body{
+.navbar-toggler{
+border: 0px;
+width: 60px
+    
+    
+}body{
     background-color:white;
         margin:0px;
     padding: 0px;

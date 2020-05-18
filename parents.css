@@ -1,4 +1,9 @@
-p{
+.navbar-toggler{
+border: 0px;
+width: 60px
+    
+    
+}p{
     padding-left: 5%
 }
 .navbar{

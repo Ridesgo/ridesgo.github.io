@@ -1,3 +1,11 @@
+.navbar-toggler{
+border: 0px;
+width: 60px
+    
+    
+}
+
+
 p{
     padding-left: 5%
 }
@@ -27,7 +35,8 @@ font-weight: bold;
  
 }
 
-.go{color:#303033}
+.go{color:#303033;
+margin-left: 10px;}
 
 
 li{
