@@ -51,13 +51,15 @@ padding-left: 40%;
     
 font-weight: bold;
     
-   
+     font-family: Barlow 
  
 }
 
 .go{
-    color:lightgreen
+    color:#303033
 }
+
+
 
 li{
     margin-left: 30px
