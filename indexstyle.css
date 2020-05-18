@@ -1,33 +1,70 @@
+.navbar{
+    padding-bottom: 0px;
+      box-shadow:  0px 3px rgba(0,0,0,0.1);
+  
+
+    
+    
+}
+
+.nav-link{
+    margin-left: 40px;
+    
+}
+
+
+span{
+font-size: 30px;
+padding-left: 40%;
+    
+font-weight: bold;
+       font-family: Barlow
+    
+    
+    
+ 
+}
+
+.go{
+    color: #303033
+}
+
+li{
+    margin-left: 30px
+}
 
 
 
 
-
-
-
-
+header{
+    background-color: white;
+    padding: 20px;
+    margin: 0px
+}
   
 
 body{
     background-color:white;
-        margin:0px
+        margin:0px;
+    padding: 0px;
+    height:100% 
     
 }
 
 h1{ color:black;
-    padding-bottom:50px;
-    padding-top:150px;
+    padding-bottom:70px;
+    padding-top:100px;
     margin: 0px;
   
     text-align: left;
-   padding-left:10px;
-    
-    padding-left: 170px;
+ 
+    padding-left: 12%;
     
    
 
-    background-color: #0CF0FF;
+    background-color: lightgreen;
     font-size: 40px;
+    
  ;
     
     
@@ -50,7 +87,8 @@ Padding-top:40px;
 Line-height:25px;
     
     width="5px" height="5px";
-    text-align: center
+    text-align: center;
+    margin-top: 30px
 }
 
 .last{color:white;
@@ -71,59 +109,30 @@ h4{color:black;
 
 
 
-header{ 
- 
-
-
-    margin: 0px;
-
- 
-}
 
 ul{
     list-style: none;
-    margin: 0px;
-    background-color: grey;
+    
+   
+    margin-bottom: 20px;
+    
      
 }
 
-li{
-    float: right;
-    margin: 18px;
-    font-weight:bold;
-    font-size: 20px;
-    color: white;
-}
 
-li:hover{
-   
-    border-bottom: 3px solid purple
-}
 
-.left{
-    float:left;
-    font-weight:bold;
-    font-size: 40px;
-    margin-left: 140px;
-    color: black;
-   font-family: 'Noto Sans KR', sans-serif;
-    margin-top:20px ;
-    border-bottom: 5px solid purple;
-    padding-bottom: 0px;
+
+
+
+span{
+    color:#363836
 }
 
 
-.right{margin-right: 15px;
-padding-top: 10px;}
 
 
 
 
-button{
-    
-    background-color: black;
-    color:white;
-    border-radius: 12px}
 
 
 
@@ -137,10 +146,13 @@ button{
 
 
 .okay{
-    width:300px;
+    width:200px;
     height: inherit;
     
       margin-top: 40px;
+    
+    max-width: 100%; 
+    height: auto; 
  
  
   
@@ -172,6 +184,7 @@ text-align: center;
 .safe21{color:gray;
     font-weight: 100;
     margin-top: 0px;
+    font-weight: 400
    
     
  }
@@ -182,7 +195,7 @@ text-align: center;
 .hi3{
     font-size: 16px;
     margin: 2px;
-    font-weight: bold;
+   
     margin-top: 20px;
     text-align: center;
     padding-bottom: 10px
@@ -190,23 +203,19 @@ text-align: center;
 
 .item3{
  
-    margin: 50px;
+  margin-top: 20px;
+   
    
     background-color: white;
-    
-    border-radius: 9px;
+   
 
     margin-left: 60px;
     margin-right: 60px;
-    border-bottom: 5px solid skyblue
+    border-bottom: 3px solid skyblue
    
     
 }
 
-.item3:hover{
-     border-bottom: 5px solid skyblue;
-     border-top: 5px solid skyblue;
-}
 
 .social {
     width: inherit;
@@ -230,12 +239,17 @@ text-align: center;
  
 
 .children{
-    
+    background-color:linear-gradient(to right,lightgray,white);
     background-image: url(https://miro.medium.com/max/2800/1*ftYXPbT-i19JxoUToHrUoQ.png);
 
  
-    max-width: 100%;
+    width: 100%;
   height: 450px;
+   
+background-repeat:no-repeat;
+
+background-position:center;
+    margin-bottom: 30px
     
    
 
@@ -248,12 +262,32 @@ text-align: center;
    display: flex;
   flex-wrap: wrap;
     justify-content: center;
-  padding-top: 60px;
-    padding-bottom: 40px
+  padding-top: 0px;
+    
+  
    
    
    
 }
+.horizontal2{
+   
+
+   display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+  margin-top: 40px;
+    margin-bottom: 30px;
+   
+    
+  
+   
+   
+   
+}
+
+
+
+
 
 
 .horizontal3 {
@@ -265,7 +299,7 @@ text-align: center;
     padding-top: 5px;
     padding-bottom: 40px;
     margin-top: 0px;
-    margin-left: 55px
+  
 }
 
 
@@ -276,8 +310,15 @@ text-align: center;
     margin-left: 90px;
     margin-right:90px;
   
+  
     
 }
+
+.image:hover{
+    transform: rotate(360deg)
+}
+
+
 
 
 .image2{
@@ -291,18 +332,18 @@ text-align: center;
 }
 
 .image3a{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 
     margin-top:20px;
-    margin-left: 60px;
+    margin-left: 63px;
   
     
 }
 
 .image3b{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
 
     margin-top:20px;
     margin-left: 70px;
@@ -310,11 +351,12 @@ text-align: center;
     
 }
 .image3c{
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
+  
 
     margin-top:20px;
-    margin-left: 90px;
+    margin-left: 35%;
   
     
 }
@@ -341,6 +383,7 @@ text-align: center;
 }
 
 .ridesgo{
+   
     font-size: 30px;
     margin-top: 50px;
     margin-bottom: 0px;
@@ -364,8 +407,8 @@ text-align: center;
        border-bottom: solid 5px;
     border-image-source:  linear-gradient(to right, white 35%, pink, white 65% );
     border-image-slice: 1;
-    padding-bottom: 10px;
-    font-family: cambria;
+    margin-bottom: 40px;
+    
 }
 
 
@@ -376,13 +419,11 @@ text-align: center;
    
     margin-bottom: 0px;
     padding-top: 30px;
-    padding-left:31px 
+
 }
 
 
-.top{
-    background-color: grey;
-}
+
 
 .safe{
     color:Grey;
@@ -390,15 +431,6 @@ text-align: center;
   
 }
 
-
-
-.size{
-    font-size: 30px;
-     
-    
-    
-    
-}
 
 .rides{
 width:90px;
