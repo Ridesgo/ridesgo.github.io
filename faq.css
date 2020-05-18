@@ -1,21 +1,15 @@
-p{
-    padding-left: 5%
-}
-
-
-.navbar{
-    padding-bottom: 0px;
-      box-shadow:  0px 3px rgba(0,0,0,0.1);
-  
-
-    
+body{
+    background-color:white;
+        margin:0px;
+    padding: 0px;
+    height:100% 
     
 }
 
-.nav-link{
-    margin-left: 40px;
-    
-}
+
+
+
+
 
 
 span{
@@ -24,7 +18,7 @@ padding-left: 40%;
     
 font-weight: bold;
     
-   
+    
  
 }
 
@@ -32,30 +26,56 @@ font-weight: bold;
     color:lightgreen
 }
 
-
 li{
     margin-left: 30px
 }
 
-ul{
-    list-style: none;
+
+.nav-link{
+    margin-left: 40px;
     
+    
+}
+.navbar{
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  
+      box-shadow:  0px 3px rgba(0,0,0,0.1);
+  
+
+    
+
+  
+
+    
+    
+}
+
+
+
+
+
+
+
+.blog{
+    text-align: center;
    
-    margin-bottom: 20px;
+    font-size: 30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    background-color: lightgreen
+}
+
+.text{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
     
-     
+    margin-top: 30px;
+    
 }
-
-
-
-
-
-
-span{
-    color:#363836
-}
-
-
 
 
 
@@ -68,7 +88,7 @@ Line-height:25px;
     
      height="5px";
     text-align: center;
-    margin-top: 450px
+    margin-top: 200px
 }
 
 .last{color:white;
@@ -95,3 +115,8 @@ a.last:hover{
     margin-right: 10px;
     margin-left: 10px
 }
+
+
+
+
+

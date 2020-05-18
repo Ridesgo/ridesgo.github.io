@@ -1,6 +1,33 @@
-p{
-    padding-left: 5%
+
+
+
+
+.horizontal{
+   
+
+   display: flex;
+  flex-wrap: wrap;
+    justify-content: center;
+  padding-top: 40px;
+    
+  
+   
+   
+   
 }
+
+.image2{
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+    margin-right:90px;
+  
+  
+    
+}
+
+
+
 
 
 .navbar{
@@ -32,7 +59,6 @@ font-weight: bold;
     color:lightgreen
 }
 
-
 li{
     margin-left: 30px
 }
@@ -58,7 +84,35 @@ span{
 
 
 
+*{
+ margin-top: 0px;
+    padding-top: 0px
+}
 
+.contact{
+    text-align: center;
+    font-size:30px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    font-weight: 3000;
+    background-color: lightgreen
+    
+    
+}
+
+.text{
+    padding-left:10%;
+    margin-top: 60px;
+    margin-bottom: 30px
+}
+
+.body{
+
+    height: 100%;
+    padding-top: 0px;
+    margin-top: 0px;
+    overflow: auto
+}
 footer{
     background-color: #303033;
     
@@ -68,7 +122,7 @@ Line-height:25px;
     
      height="5px";
     text-align: center;
-    margin-top: 450px
+    margin-top: 70px
 }
 
 .last{color:white;
@@ -95,3 +149,42 @@ a.last:hover{
     margin-right: 10px;
     margin-left: 10px
 }
+
+
+
+
+
+
+
+
+
+
+
+
+.hi{
+    margin-top:19px;
+    font-weight: bold
+}
+
+
+
+.safe21{color:gray;
+    font-weight: 100;
+    margin-top: 0px;
+   
+    
+ }
+
+
+.item{
+text-align: center;
+ 
+    margin: 10px;
+    margin-bottom: 0px;
+    
+}
+
+
+
+
+
