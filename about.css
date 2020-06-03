@@ -1,26 +1,41 @@
 .navbar-toggler{
 border: 0px;
-width: 60px
+width: 60px;
+    
     
     
 }
 
 
-p{
-    padding-left: 5%
-}
+
 .navbar{
     padding-bottom: 0px;
-      box-shadow:  0px 3px rgba(0,0,0,0.1);
-  
+      box-shadow:  0px 3px 4px rgba(0,0,0,0.07);
+    margin-bottom: 0px
+   
 
     
     
+}
+.fb{
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-bottom: 5px
 }
 
 .nav-link{
-    margin-left: 40px;
+   margin-left: 40px;
+    margin-right: 10px
+   
     
+    
+    
+}
+
+
+.nav-link:hover{
+    color:lightgreen !important
 }
 
 
@@ -39,22 +54,19 @@ font-weight: bold;
 }
 
 
-li{
-    margin-left: 30px
-}
 
 ul{
     list-style: none;
-    
+
    
-    margin-bottom: 20px;
     
      
 }
 
 
-
-
+.li{margin-left: 10px;
+    margin-right: 10px
+}
 
 
 span{
@@ -74,7 +86,7 @@ Line-height:25px;
     
      height="5px";
     text-align: center;
-    margin-top: 450px
+    margin-top: 50px
 }
 
 .last{color:white;
@@ -100,4 +112,67 @@ a.last:hover{
     margin-top:30px; 
     margin-right: 10px;
     margin-left: 10px
+}
+
+
+
+#hard{
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    padding: 0px;
+    margin-top: 50px;
+    color: lightgreen
+    
+}
+
+#vision{
+    text-align: center;
+    font-size: 30px;
+    background-color: #dbffe2;
+    margin-bottom: 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-weight: bold
+   
+    
+}
+
+#word{
+    text-align: center;
+    padding-bottom: 30px;
+     background-color:#dbffe2;
+    margin-top: 0px;
+    color: grey;
+    
+}
+
+#ready{ text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 40px
+}
+
+
+#career{
+    text-align: center
+}
+
+#join{
+    text-align: center;
+    color: gray
+}
+
+#team{
+    text-align: center;
+    font-size: 25px;
+  margin-top: 50px;
+    margin-bottom: 250px;
+   padding-bottom: 0px;
+    font-weight: bold;
+     border-bottom: solid 5px  ;
+    border-image-source:  linear-gradient(to right, white 35%, skyblue, white 65% );
+    border-image-slice: 1;
+    
 }
