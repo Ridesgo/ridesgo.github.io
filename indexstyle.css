@@ -1,10 +1,18 @@
 .navbar-toggler{
 border: 0px;
-width: 60px
+width: 60px;
+
     
     
-}.navbar{
+}
+.navbar-toggler-icon{
+    height: 35px
+}
+
+.navbar{
     padding-bottom: 0px;
+    
+    padding-left: 0px;
       box-shadow:  0px 3px 4px rgba(0,0,0,0.1);
   
 
@@ -12,6 +20,10 @@ width: 60px
     
 }
 
+img{
+    height: 55px;
+
+}
 .nav-link{
     margin-left: 40px;
     
@@ -23,7 +35,8 @@ font-size: 30px;
 padding-left: 40%;
     
 font-weight: bold;
-       font-family: Barlow
+       font-family: Barlow;
+
     
     
     
@@ -31,7 +44,9 @@ font-weight: bold;
 }
 
 .go{
-    color: #303033
+    color: #303033;
+  
+   
 }
 
 li{
@@ -71,24 +86,16 @@ h1{ color:;
     font-size: 40px;
 
     
-    background-color:#dbffe2;
+    background-color#44e82e
     
 }
 
-img {height: 200px; 
-     width: 200px;
-    transition:0.5s;
-    
-    
-}
-img:hover{
-    transform: scale(1.05)
-}
+
 footer{
     background-color: #303033;
     
 Padding-bottom:1px;
-Padding-top:40px;
+Padding-top:30px;
 Line-height:25px;
     
     width="5px" height="5px";
@@ -97,17 +104,13 @@ Line-height:25px;
 }
 
 .last{color:white;
-font-size:15px;
+font-size:px;
 margin-bottom:20px;
 margin-top:90px;
 }
 
-a.last:hover{
-    color: black
-}
-.last:active{
-    color:red
-}
+
+
 
 h4{color:black;
 }
@@ -196,7 +199,7 @@ text-align: center;
  }
 .hi{
     margin-top:19px;
-    font-weight: bold
+    font-weight: 500
 }
 .hi3{
     font-size: 16px;
@@ -226,7 +229,7 @@ text-align: center;
 .social {
     width: inherit;
     height: 25px;
-    margin-top:30px; 
+    margin-top:20px; 
     margin-right: 10px;
     margin-left: 10px
 }
@@ -269,6 +272,7 @@ text-align: center;
     justify-content: center;
   padding-top: 0px;
     
+    
   
    
    
@@ -280,8 +284,9 @@ text-align: center;
    display: flex;
   flex-wrap: wrap;
     justify-content: center;
-  margin-top: 40px;
-    margin-bottom: 30px;
+  padding-top: 40px;
+    padding-bottom: 30px;
+
    
     
   
@@ -371,7 +376,7 @@ text-align: center;
 }
 #legal{
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 0px;
     margin-left: 12px;
     color: grey;
@@ -393,16 +398,19 @@ text-align: center;
 
 .ridesgo{
    
-    font-size: 30px;
-    margin-top: 50px;
+    font-size: 25px;
+    margin-top: 20px;
     margin-bottom: 0px;
-    font-weight:bold;
+    font-weight:300;
     text-align: center; 
     border-bottom: solid 5px  ;
     border-image-source:  linear-gradient(to right, white 35%, skyblue, white 65% );
     border-image-slice: 1;
     padding-bottom: 10px;
-    font-weight:bold;
+    color: #59ed45;
+    font-weight: bold;
+    font-family:sans-serif
+    
 
  
 }
@@ -412,7 +420,7 @@ text-align: center;
         font-weight:bold;
     text-align: center;
  font-size: 25px;
-    padding-top: 25px;
+    padding-top: 45px;
        border-bottom: solid 5px;
     border-image-source:  linear-gradient(to right, white 35%, pink, white 65% );
     border-image-slice: 1;
@@ -450,10 +458,35 @@ height:90px
 .your{
     text-align: center;
     padding: 40px;
-    background-color: lightblue;
+    background-color: #e9f7f7;
     font-weight: bold;
-    color: white;
+    color: ;
     font-size: 25px;
     margin-top: 20px;
-    margin-bottom: 20px
+   
 }
+
+
+
+.all{
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    font-weight: normal;
+    margin-top: 30px
+    
+}
+
+sup{
+    margin-left: 7px;
+    font-size: 11px;
+     background: -webkit-linear-gradient(left, hotpink , );
+   background: -o-linear-gradient(right, red, hotpink);
+   background: -moz-linear-gradient(right, red, hotpink);
+   background: linear-gradient(to right, red , hotpink); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+    
+}
+

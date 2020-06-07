@@ -1,8 +1,25 @@
-.navbar-toggler{
+sup{
+    margin-left: 7px;
+    font-size: 11px;
+     background: -webkit-linear-gradient(left, hotpink , );
+   background: -o-linear-gradient(right, red, hotpink);
+   background: -moz-linear-gradient(right, red, hotpink);
+   background: linear-gradient(to right, red , hotpink); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+    
+}img{
+    height: 55px;
+
+}.navbar-toggler{
 border: 0px;
-width: 60px;
+width: 60px
     
     
+}
+.navbar-toggler-icon{
+    height: 35px
 }
 body{
     background-color:white;
@@ -12,37 +29,9 @@ body{
     
 }
 
-.bootstrap{
-    
-   display: flex;
-  flex-wrap: wrap;
-    margin-top: 40px
-}
 
 
 
-.card{
-    margin: 20px;
-   box-shadow:  0px 3px 4px rgba(0,0,0,0.1);
-   
-
-    
-}
-
-span{
-font-size: 30px;
-padding-left: 40%;
-    
-font-weight: bold;    
-       font-family: Barlow
-    
-    
- 
-}
-
-.go{
-    color:#303033
-}
 
 li{
    margin-left: 0px;
@@ -59,6 +48,7 @@ li{
     padding-bottom: 0px;
     margin-top: 0px;
     margin-bottom: 0px;
+      padding-left: 0px;
   
       box-shadow:  0px 3px 4px rgba(0,0,0,0.1);
   
@@ -86,7 +76,8 @@ li{
     font-size: 30px;
     padding-top: 40px;
     padding-bottom: 30px;
-    background-color:#dbffe2
+    background-color:#e9f7f7;
+    margin-bottom: 600px
 }
 
 .text{

@@ -1,15 +1,33 @@
-.navbar-toggler{
+sup{
+    margin-left: 7px;
+    font-size: 11px;
+     background: -webkit-linear-gradient(left, hotpink , );
+   background: -o-linear-gradient(right, red, hotpink);
+   background: -moz-linear-gradient(right, red, hotpink);
+   background: linear-gradient(to right, red , hotpink); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+    
+}img{
+    height: 55px;
+
+}.navbar-toggler{
 border: 0px;
 width: 60px
     
     
+}
+.navbar-toggler-icon{
+    height: 35px
 }
 
 body{
     background-color:white;
         margin:0px;
     padding: 0px;
-    height:100% 
+    height:100%;
+    width: 100%
     
 }
 
@@ -19,28 +37,17 @@ body{
 
 
 
-span{
-font-size: 30px;
-padding-left: 40%;
-    
-font-weight: bold;
-    font-family: Barlow
-    
-    
- 
-}
 
-.go{
-    color:#303033
-}
 
 li{
-    margin-left: 30px
+    margin-left: 10px;
+    margin-right: 0px
 }
 
 
 .nav-link{
-    margin-left: 40px;
+    margin-left: 28px;
+    margin-right: 10px
     
     
 }
@@ -51,7 +58,7 @@ li{
   
       box-shadow:  0px 3px 4px rgba(0,0,0,0.1);
   
-
+ padding-left: 0px;
     
 
   
@@ -72,7 +79,8 @@ li{
     font-size: 30px;
     padding-top: 40px;
     padding-bottom: 30px;
-    background-color: #dbffe2
+    background-color: #e9f7f7;
+    margin-bottom: 600px
 }
 
 .text{
@@ -88,30 +96,36 @@ li{
 
 
 footer{
-    background-color: #303033;
+    background-color: #f7f8fa;
     
 Padding-bottom:1px;
-Padding-top:15px;
+Padding-top:30px;
 Line-height:25px;
     
      height="5px";
-    text-align: center;
+    
     margin-top: 200px
 }
 
-.last{color:white;
-font-size:15px;
-margin-bottom:20px;
-margin-top:90px;
+
+
+.last{color:black;
+    text-align:right;
+
+    margin-top: 1px;
+   
+    
+ 
+   
+
 }
 
-a.last:hover{
-    color: black
-}
+
+
 #legal{
     text-align: center;
-    font-size: 10px;
-    margin-top: 0px;
+    font-size: 13px;
+    margin-top: 10px;
     margin-left: 12px;
     color: grey;
     margin-top: 10px
@@ -119,10 +133,39 @@ a.last:hover{
 .social {
     width: inherit;
     height: 25px;
-    margin-top:30px; 
-    margin-right: 10px;
-    margin-left: 10px
+    justify-content: center;
+  
+    margin-right: 0px;
+    margin-left: 70px;
+    margin-bottom: 10px
 }
+
+topsocial{
+    margin-left: 20px;
+}
+
+.okay2{
+      width:200px;
+    height: inherit;
+    
+      margin-top: 0px;
+    
+    max-width: 100%; 
+    height: auto; 
+  margin-left: 75px
+ 
+ 
+    
+}
+
+.hi{
+    text-align: center;
+    margin-top: 0px;
+    font-weight: 490
+}
+
+
+
 
 
 

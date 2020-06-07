@@ -1,3 +1,18 @@
+sup{
+    margin-left: 7px;
+    font-size: 11px;
+     background: -webkit-linear-gradient(left, hotpink , );
+   background: -o-linear-gradient(right, red, hotpink);
+   background: -moz-linear-gradient(right, red, hotpink);
+   background: linear-gradient(to right, red , hotpink); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+ 
+    
+}
+.top{
+   height: 55px
+}
 .horizontal{
    
 
@@ -5,6 +20,7 @@
   flex-wrap: wrap;
     justify-content: center;
   padding-top: 0px;
+    cursor: pointer
     
     
   
@@ -59,12 +75,14 @@ width: 60px
     
     
 }
-
+.navbar-toggler-icon{
+    height: 35px
+}
 .navbar{
     padding-bottom: 0px;
      box-shadow:  0px 3px 4px rgba(0,0,0,0.1);
    
-
+  padding-left: 0px;
 
     
     
@@ -117,10 +135,9 @@ span{
 
 
 footer{
-    background-color: #303033;
-    
+    background-color:  #303033;
 Padding-bottom:1px;
-Padding-top:15px;
+Padding-top:20px;
 Line-height:25px;
     
      height="5px";
@@ -129,9 +146,10 @@ Line-height:25px;
 }
 
 .last{color:white;
-font-size:15px;
+font-size:px;
 margin-bottom:20px;
-margin-top:90px;
+margin-top:0px;
+    font-weight: 00
 }
 
 a.last:hover{
@@ -139,7 +157,7 @@ a.last:hover{
 }
 #legal{
     text-align: center;
-    font-size: 10px;
+    font-size: 13px;
     margin-top: 0px;
     margin-left: 12px;
     color: grey;
@@ -148,7 +166,7 @@ a.last:hover{
 .social {
     width: inherit;
     height: 25px;
-    margin-top:30px; 
+    margin-top:20px; 
     margin-right: 10px;
     margin-left: 10px
 }
@@ -163,8 +181,8 @@ a.last:hover{
     padding-top: 50px;
     font-size: 30px;
     font-weight: bold;
-    background-color: #dbffe2;
-    padding-bottom: 50px;
+   
+    padding-bottom: 20px;
     
 }
 
@@ -172,7 +190,7 @@ a.last:hover{
 .we{
     text-align: center;
     color: gray
-        ;
+        
     font-size: 15px;
     margin-bottom: 40px;
     margin-top: 40px
@@ -208,7 +226,8 @@ font-weight: bold;
     margin: 20px;
    margin-bottom: 30px;
   
-      box-shadow:  1px 2px 2px rgba(0,0,0,0.1);
+     text-align: center;
+    border: none;
 }
 
 .btn{
@@ -216,7 +235,7 @@ font-weight: bold;
     padding-right: 30px;
     background-color:black;
     border-color: black;
-   margin-left: 65px;
+
     margin-top: 20px;
     margin-bottom: 0px
 }
