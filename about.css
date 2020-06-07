@@ -133,7 +133,7 @@ a.last:hover{
 #vision{
     text-align: center;
     font-size: 30px;
-background-image: linear-gradient(to bottom, #e9f7f7,white);
+background-image linear-gradient(to bottom, #e9f7f7,white);
     margin-bottom: 0px;
     padding-top: 50px;
     padding-bottom: 20px;
