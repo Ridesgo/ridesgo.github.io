@@ -2,8 +2,7 @@
     
 right: 70px;
 bottom: 20px;
-
-  position: fixed;
+position: fixed;
     
       -webkit-filter: drop-shadow(1px 1px 1px #122);
   filter: drop-shadow(px px 1px #222);
