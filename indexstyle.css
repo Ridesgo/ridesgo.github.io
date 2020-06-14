@@ -2,7 +2,8 @@
     
 right: 70px;
 bottom: 20px;
-position: fixed;
+
+  position: fixed;
     
       -webkit-filter: drop-shadow(1px 1px 1px #122);
   filter: drop-shadow(px px 1px #222);
@@ -333,8 +334,8 @@ text-align: center;
 .image2{
     width: 70px;
     height: 70px;
-    margin-left: 190px;
-    margin-right:190px;
+    margin-left: 130px;
+    margin-right:130px;
   
   
     
