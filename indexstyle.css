@@ -1,6 +1,6 @@
 .whatsapp{
     
-right: 70px;
+right: 20px;
 bottom: 20px;
 
   position: fixed;
@@ -85,7 +85,7 @@ h1{ color:;
 
 
 footer{
-    background-color:#303033;
+    background-color:#202021  ;
     
 Padding-bottom:1px;
 Padding-top:30px;
@@ -336,7 +336,8 @@ text-align: center;
     height: 70px;
     margin-left: 130px;
     margin-right:130px;
-  
+    
+    
   
     
 }
@@ -378,7 +379,7 @@ text-align: center;
     font-size: 13px;
     margin-top: 0px;
     margin-left: 12px;
-    color: grey;
+    color: white;
     margin-top: 10px
 }
 
@@ -435,7 +436,7 @@ text-align: center;
 
 .corona1{
     
-    color:#2ae627
+    color:
 }
 
 
@@ -468,7 +469,7 @@ height:90px
 .your{
     text-align: center;
     padding-top: 40px;
-    background-color: #e9f7f7;
+    background-color: #fcdcfb;
     font-weight: bold;
     color: ;
     font-size: 25px;
